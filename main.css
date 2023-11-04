@@ -1,0 +1,442 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 28px;
+    padding: 0;
+}
+a {
+    
+    text-decoration: none;
+}
+
+nav a {
+    color: #ddd;
+    font-weight: bold;
+    text-transform: inherit;
+}
+h1{
+    color :#ddd;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #353232;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 10px;
+    font-family: Gotham SSm,Arial,sans-serif;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 50px;
+}
+
+/* Hero section styles */
+#hero {
+    background-image: url('hero-image.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+    background-image: url(https://papers.co/wallpaper/papers.co-al86-nike-logo-sports-art-minimal-simple-dark-35-3840x2160-4k-wallpaper.jpg) ;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    font-family: Gotham SSm,Arial,sans-serif;
+}
+
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    font-family: Gotham SSm,Arial,sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
+
+/* About section styles */
+#about {
+    background-color: #d5d5d5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Services section styles */
+#services {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#services li {
+    /* background-color: #f9f9f9; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    border:1px solid #333;
+    font-weight: bold;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 550px;
+}
+
+input[type="submit"] {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    /* margin-top: 50px; */
+}
+p {
+    font-family: Gotham SSm,Arial,sans-serif;
+}
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 97.5%;
+    justify-content: center;
+    padding-top: 8em;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    width: 300px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-card h2 {
+    font-size: 20px;
+    margin: 7px;
+    height: 53px;
+}
+h2{
+    font-family: Gotham SSm,Arial,sans-serif;
+}
+.product-card p {
+    margin: 13px;
+    font-size: 20px;
+    height: 12px;
+    font-family: Gotham SSm,Arial,sans-serif;
+}
+
+.product-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: Gotham SSm,Arial,sans-serif;
+    /* width: 100%; */
+}
+
+.shopping-cart {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-height: 50%;
+    overflow-y: scroll;
+    display: none;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cart-item p {
+    margin: 0;
+}
+
+.cart-item button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #3e8e41;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cart-total p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.cart-total button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .product-card {
+        width: 90%;
+    }
+
+    .cart-item img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+button:hover {
+    background-color: rgb(32, 73, 23);
+    color: white;
+}
+#searchbutton {
+    color: black;
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+#sr{
+     padding-top: 15px;
+}
+#lg{
+    height: 80px;
+    margin-left: 50px;
+}
+
+.menu-bar{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 100px;
+    display: flex;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Gotham SSm,Arial,sans-serif;
+}
+
+.menu-bar ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.menu-bar ul li {
+    margin-left: 20px;
+    width: 120px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    color: black
+}
+.menu-bar {
+    text-align:center;
+}
+/* .menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:#fff
+} */
+.active, .menu-bar ul li:hover {
+    background:#2bab0d;
+    border-radius: 3px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+    display:block ;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.btn{
+    overflow: hidden;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 254px;
+    height: 61px;
+    left: 7%;
+    top: 255%;
+    background: crimson;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
+.btn:hover:before{
+    left:20%;
+}
+.btn span{
+    z-index: 10;
+}
+#wrapper{
+    max-width: 960px;
+    display: flex;
+}
